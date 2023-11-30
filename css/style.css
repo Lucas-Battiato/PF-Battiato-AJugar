@@ -1,0 +1,360 @@
+/*!-------RESET-------*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/*!-------HEADER-------*/
+
+header nav  div ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 0 .5em;
+    background-color:black;
+    border-radius: 50px;
+    padding: 9px 15px;
+}
+
+
+
+header nav  div a img{
+    width: 100px;
+    height: 100px;
+}
+
+header nav  div h1{
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.navegador{
+    list-style: none;
+}
+.navegador a:hover{
+    color: green;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.titulo{
+    display: flex;
+    justify-content: left;
+}
+
+header{
+    background-color:rgb(171, 169, 169);
+    height: 135px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+/*!--------MAIN--------*/    
+
+main{
+    background-image: url(../img/cancha-futbo-mediano.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 60px;
+}
+
+.hero{
+    display: flex;
+    font-size: 45px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 60px;
+    font-weight: 200;
+}
+
+.diseño{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.buscador{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.tutorial{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    height: 100%;
+    padding: 50px;
+}
+
+.indicaciones{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-align: center;
+}
+
+.pasos{
+    padding: 10px;
+    margin: 30px;
+}
+
+.img-pasos{
+    width: 150px;
+    height: 150px;
+}
+
+/*!-------FOOTER-------*/
+footer{
+    background-color:rgb(171, 169, 169);
+    height: 176px;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+.pie{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.enlaces{
+    list-style: none;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-bottom: 10px;
+}
+.links ul{
+    list-style: none;
+}
+
+footer div a img{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+/*!------QUIENES SOMOS MAIN-------*/
+.quienessomos{ 
+    background-image: none;
+    background-color: beige;
+    color: black;
+}
+
+.titulo-quienessomos{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+main img{
+    width: 450px;
+    height: 450px;
+}
+
+.texto-uno{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+}
+
+.texto-uno div{
+    width: 60%;
+    text-align: center;
+}
+
+.texto-dos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    font-size: 25px;
+}
+
+.texto-dos div{
+    width: 60%;
+    text-align: center;
+}
+
+/*!----AYUDA MAIN----!*/
+
+.ayuda{
+    background-image: none;
+    background-color: beige;
+    color: black;
+}
+
+.titulo-ayuda{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin: 20px 300px;
+}
+
+/*!----INGRESAR MAIN-----!*/
+
+.titulo-registro{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.ingreso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contenido{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 20px;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #000;
+}
+
+.titulo-cuadro{
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+.cuadro{
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.genero{
+    grid-column: 1/3;
+}
+
+.ingresar{
+    background-color: beige;
+    background-image: none;
+    color: black;
+}
+
+.boton-registrar{
+    padding: 10px 25px;
+}
+
+/*!---ADPTATIVE---!*/
+
+@media (max-width:900px){
+    .hero{
+        font-size: 35px;
+        padding: 40px;
+    }
+
+    header nav  div ul li a{
+        margin: 0 1px;
+        border-radius: 50px;
+        padding: 5px 12px;
+    }
+}
+@media (max-width: 815px) {
+
+    header nav  div ul li a{
+        display: flex;
+        font-size: 12px;
+    }
+}
+@media (max-width:700px){
+    .hero{
+        font-size: 30px;
+    }
+    .indicaciones{
+        font-size: 15px;
+    }
+    .img-pasos{
+        width: 100px;
+    height: 100px;
+    }
+    .tutorial{
+        height: 100px;
+        padding: 30px;
+    }
+}
+
+/*!---ADAPTATIVE QUIENES SOMOS---!*/
+
+@media (max-width:1000px){
+    main img{
+        width: 350px;
+        height: 350px;
+    }
+    .texto-uno{
+        font-size: 15px;
+    }
+    .texto-dos{
+        font-size: 20px;
+    }
+}
+@media (max-width:750px){
+    .titulo-quienessomos{
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    main img{
+        width: 300px;
+        height: 300px;
+    }
+    .texto-uno{
+        font-size: 10px;
+    }
+    .texto-dos{
+        font-size: 15px;
+    }
+}
+@media (max-width:650px){
+    main img{
+        width: 200px;
+        height: 200px;
+    }
+    .titulo-quienessomos{
+        font-size: 25px;
+    }
+}
+@media (max-width:500px){
+    .titulo-quienessomos{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    main img{
+        width: 160px;
+        height: 160px;
+    }
+    .texto-uno{
+        font-size: 8px;
+    }
+    .texto-dos{
+        font-size: 12px;
+    }
+}
