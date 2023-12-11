@@ -32,44 +32,6 @@
     height: 100px;
 }
 
-.btn {
-    --bs-btn-font-size: 30px;
-    --bs-btn-padding-x: 0px;
-    --bs-btn-padding-y: 0px;
-}
-
-.btn-primary {
-    --bs-btn-color: #000000;
-    --bs-btn-bg: gray;
-    --bs-btn-border-color: none;
-    --bs-btn-hover-bg: gray;
-    --bs-btn-hover-color: black;
-}
-
-.btn-check:checked+.btn,
-.btn.active,
-.btn.show,
-.btn:first-child:active,
-:not(.btn-check)+.btn:active {
-    color: #000;
-    background-color: gray;
-    border-color: #000000;
-}
-
-.a-jugar {
-    justify-content: left;
-    font-size: 30px
-}
-
-.cuenta {
-    text-decoration: none;
-    color: #000;
-}
-
-.cuenta:hover {
-    color: #000;
-}
-
 /*!--------MAIN--------*/
 
 .hero-section {
