@@ -1,0 +1,94 @@
+main{
+    background-image: url(../img/cancha-futbo-mediano.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.95;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 60px;
+
+    section{
+
+        div{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            padding: 50px;
+
+            h1{
+                font-size: 60px;
+            }
+
+            span{
+                font-size: 60px
+            }
+        }
+    }
+    form{
+        div{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+
+            div{
+                display: flex;
+                margin: 50px 0 50px 0;
+                padding: 0 30px 0 30px;
+
+                select{
+                        font-size: 16px;
+                        padding: 15px;
+
+                    option{
+
+                    }
+                }
+                
+                input{
+
+                }
+                
+                input{
+
+                }
+            }
+        }
+    }
+    section{
+            justify-content: center;
+            display: flex;
+            text-align: center;
+            height: 100%;
+            padding: 50px;
+
+        h2{
+
+        }
+    }
+    section{
+
+        div{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            font-size: 20px;
+            text-align: center;
+
+            div{
+                padding: 10px;
+                margin: 30px;
+
+                img{
+                    width: 150px;
+                    height: 150px;
+                }
+                
+                p{
+
+                }
+            }
+            
+        }
+    }
+}

@@ -5,7 +5,8 @@
 
 header nav {
   background-color: gray !important;
-  padding: 20px 0 20px 0; }
+  padding: 20px 0 20px 0;
+  padding: 0 20px 0 20px; }
 
 header div a img {
   width: 100px;
@@ -13,5 +14,89 @@ header div a img {
 
 header div div {
   flex-grow: 0; }
-  header div div ul li a {
-    font-size: 30px; }
+  header div div ul {
+    padding: 0 20px 0 20px; }
+    header div div ul li a {
+      font-size: 30px;
+      padding: 0 20px 0 20px; }
+
+main {
+  background-image: url(../img/cancha-futbo-mediano.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.95;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 60px; }
+  main section div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 50px; }
+    main section div h1 {
+      font-size: 60px; }
+    main section div span {
+      font-size: 60px; }
+  main form div {
+    display: flex;
+    justify-content: center;
+    text-align: center; }
+    main form div div {
+      display: flex;
+      margin: 50px 0 50px 0;
+      padding: 0 30px 0 30px; }
+      main form div div select {
+        font-size: 16px;
+        padding: 15px; }
+  main section {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    height: 100%;
+    padding: 50px; }
+  main section div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-align: center; }
+    main section div div {
+      padding: 10px;
+      margin: 30px; }
+      main section div div img {
+        width: 150px;
+        height: 150px; }
+
+footer {
+  background-color: #aba9a9;
+  font-family: sans-serif;
+  padding-top: 10px; }
+  footer div {
+    display: flex;
+    justify-content: space-around; }
+    footer div div ul {
+      list-style: none; }
+      footer div div ul li a {
+        text-decoration: none;
+        color: black;
+        display: block;
+        margin-bottom: 16px; }
+    footer div div ul {
+      list-style: none; }
+      footer div div ul li a {
+        text-decoration: none;
+        color: black;
+        display: block;
+        margin-bottom: 16px; }
+    footer div div ul {
+      list-style: none; }
+      footer div div ul li a {
+        text-decoration: none;
+        color: black;
+        display: block;
+        margin-bottom: 16px; }
+    footer div div a img {
+      width: 30px;
+      height: 30px;
+      margin: 5px; }

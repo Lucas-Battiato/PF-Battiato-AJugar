@@ -3,6 +3,7 @@ header{
     nav{
         background-color: gray !important;
         padding: 20px 0 20px 0;
+        padding: 0 20px 0 20px;
         }
         div{
 
@@ -22,11 +23,12 @@ header{
             div{
                 flex-grow: 0;
                 ul{
-
+                    padding: 0 20px 0 20px;
                     li{
 
                         a{
                             font-size: 30px;
+                            padding: 0 20px 0 20px;
                         }
                     }
                 }
