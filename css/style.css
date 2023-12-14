@@ -210,21 +210,142 @@ main img {
 }
 
 /*!------CONTACTO MAIN------!*/
-.main-contacto {
-    background-image: none;
-    background-color: beige;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 60px;
+.google-map {
+    width: 100%;
+    float: left;
+    position: relative;
 }
-
-.titulo-contacto {
-    display: flex;
-    width: 40%;
+.google-map iframe {
+    width: 100%;
+    height: 485px;
+    border: 0px;
+}
+.formulario {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    float: left;
+}
+.formulario li {
+    margin-bottom: 30px;
+}
+.formulario li:last-child {
+    margin: 0px;
+}
+.formulario li.half {
+    width: 50%;
+    float: left;
+}
+.f-c-i{
+    padding-left: 15px;
+}
+.f-c-d{
+    padding-right: 15px;
+}
+.formulario li.full {
+    width: 100%;
+    float: left;
+}
+.formulario .form-control {
+    border: 2px solid #e1e1e1;
+    background: #fafafa;
+    color: #555555;
+    height: 53px;
+    line-height: 49px;
+    padding: 0 20px;
+}
+.formulario textarea.textarea-control {
+    border: 2px solid #e1e1e1;
+    background: #fafafa;
+    color: #555555;
+    padding: 20px;
+    width: 100%;
+    height: 165px;
+    border-radius: 5px;
+}
+.formulario .fsubmit {
+    width: 100%;
+    border-radius: 5px;
     text-align: center;
-    justify-content: center;
+    color: #fff;
+    background: #66bb6a;
+    border: 0px;
+    height: 55px;
+    line-height: 55px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
 }
-
+.formulario .fsubmit:hover {
+    background: #33691e;
+    color: #fff;
+}
+.contacto-form h1 {
+    font-weight: 700;
+    margin: 0 0 25px;
+}
+.c-info {
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    padding: 30px;
+}
+.c-info:hover {
+    box-shadow: 0 0 0 0.2rem rgba(102,187,106,.25);
+}
+.contact-map-info h6, .c-info h6 {
+    font-weight: 600;
+    color: #333333;
+    font-size: 20px;
+}
+.contact-map-info p, .c-info p {
+    margin: 0px;
+    color: #555555;
+    font-size: 16px;
+    line-height: 26px;
+}
+.contact-info {
+    margin-top: 70px;
+}
+.contact-info h3 {
+    font-weight: 700;
+    margin: 0 0 25px;
+}
+.contacto-form {
+    width: 100%;
+    float: left;
+}
+.mb60 {
+    margin-bottom: 60px;
+}
+.contact-map-info {
+    background: #fff;
+    border-radius: 5px;
+    width: 350px;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    padding: 30px;
+}
+.contact-map-info ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.contact-map-info ul li {
+    margin-bottom: 30px;
+}
+.contact-map-info ul li:last-child {
+    margin: 0px;
+}
+.contact-page {
+    min-height: 100vh;
+    padding: 80px 0;
+    background: beige;
+}
 /*!----REGISTRAR MAIN-----!*/
 
 .titulo-registro {
@@ -279,7 +400,7 @@ main img {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: rgb(24, 99, 24);
+    background: beige;
     font-family: "Poppins", sans-serif;
 }
 
