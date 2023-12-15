@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
     <title>Ingresar</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
@@ -13,6 +12,7 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
+
 
 <body>
     <header>
@@ -45,58 +45,61 @@
         </nav>
     </header>
 
-    <main class="registrar">
-        <section class="titulo-registro">
-            <div>
-                <h1>Registro</h1>
-            </div>
-        </section>
-        <section class="registro">
+    <main class="registro">
+        <section class="container">
+            <div class="titulo-registro">Registro</div>
             <div class="contenido">
-                <div>
-                    <form action=""></form>
-                    <label for="" class="titulo-cuadro">Nombre</label>
-                    <input type="text" placeholder="Escriba su Nombre" class="cuadro" required>
-                </div>
-                <div>
-                    <form action=""></form>
-                    <label for="" class="titulo-cuadro">Apellido</label>
-                    <input type="text" placeholder="Escriba su Apellido" class="cuadro" required>
-                </div>
-                <div>
-                    <form action=""></form>
-                    <label for="" class="titulo-cuadro">Email</label>
-                    <input type="email" placeholder="Escriba su Email" class="cuadro" required>
-                </div>
-                <div>
-                    <form action=""></form>
-                    <label for="" class="titulo-cuadro">Teléfono</label>
-                    <input type="text" placeholder="Numero de teléfono" class="cuadro" required>
-                </div>
-                <div>
-                    <form action=""></form>
-                    <label for="" class="titulo-cuadro">Contraseña</label>
-                    <input type="password" placeholder="Escriba su Contraseña" class="cuadro" required>
-                </div>
-                <div>
-                    <form action=""></form>
-                    <label for="" class="titulo-cuadro">Confirmar Contraseña</label>
-                    <input type="password" placeholder="Repita su Contraseña" class="cuadro" required>
-                </div>
-                <div>
-                    <p>Genero</p>
-                    <div class="Genero">
-                        <label>Masculino
-                            <input name="sexo" type="radio" value="Masculino" />
-                        </label>
-                        <label>Femenino
-                            <input name="sexo" type="radio" value="Femenino" />
-                        </label>
+                <form action="">
+                    <div class="formulario-registro">
+                        <div class="caja">
+                            <span class="detalles">Nombre</span>
+                            <input type="text" placeholder="Nombre" required>
+                        </div>
+                        <div class="caja">
+                            <span class="detalles">Apellido</span>
+                            <input type="text" placeholder="Apellido" required>
+                        </div>
+                        <div class="caja">
+                            <span class="detalles">Email</span>
+                            <input type="text" placeholder="Email" required>
+                        </div>
+                        <div class="caja">
+                            <span class="detalles">Teléfono</span>
+                            <input type="text" placeholder="Teléfono" required>
+                        </div>
+                        <div class="caja">
+                            <span class="detalles">Contraseña</span>
+                            <input type="text" placeholder="Contraseña" required>
+                        </div>
+                        <div class="caja">
+                            <span class="detalles">Confirme Contraseña</span>
+                            <input type="text" placeholder="Confirme Contraseña" required>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <input type="button" value="Registrar" class="boton-registrar">
-                </div>
+                    <div class="genero-detalles">
+                        <input type="radio" name="genero" id="dot-1">
+                        <input type="radio" name="genero" id="dot-2">
+                        <input type="radio" name="genero" id="dot-3">
+                        <span class="genero-titulo">Genero</span>
+                        <div class="categoria">
+                            <label for="dot-1">
+                                <span class="dot uno"></span>
+                                <span class="gender">Hombre</span>
+                            </label>
+                            <label for="dot-2">
+                                <span class="dot dos"></span>
+                                <span class="gender">Mujer</span>
+                            </label>
+                            <label for="dot-3">
+                                <span class="dot tres"></span>
+                                <span class="gender">Otro</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="boton-registro">
+                        <input type="submit" value="Registrar">
+                    </div>
+                </form>
             </div>
         </section>
     </main>

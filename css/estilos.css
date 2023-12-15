@@ -3,13 +3,24 @@
   padding: 0%;
   box-sizing: border-box; }
 
+.bg-light {
+  background-color: gray !important; }
 
+.navbar {
+  padding: 20px 0 20px 0; }
+
+.navbar-collapse {
+  flex-grow: 0; }
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0 20px 0 20px; }
+
+.nav-link.active {
+  font-size: 30px; }
 
 header div a img {
   width: 100px;
   height: 100px; }
-
-
 
 main {
   background-image: url(../img/cancha-futbo-mediano.jpg);

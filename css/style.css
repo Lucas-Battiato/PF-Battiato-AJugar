@@ -215,11 +215,13 @@ main img {
     float: left;
     position: relative;
 }
+
 .google-map iframe {
     width: 100%;
     height: 485px;
     border: 0px;
 }
+
 .formulario {
     margin: 0;
     padding: 0;
@@ -227,26 +229,33 @@ main img {
     width: 100%;
     float: left;
 }
+
 .formulario li {
     margin-bottom: 30px;
 }
+
 .formulario li:last-child {
     margin: 0px;
 }
+
 .formulario li.half {
     width: 50%;
     float: left;
 }
-.f-c-i{
+
+.f-c-i {
     padding-left: 15px;
 }
-.f-c-d{
+
+.f-c-d {
     padding-right: 15px;
 }
+
 .formulario li.full {
     width: 100%;
     float: left;
 }
+
 .formulario .form-control {
     border: 2px solid #e1e1e1;
     background: #fafafa;
@@ -255,6 +264,7 @@ main img {
     line-height: 49px;
     padding: 0 20px;
 }
+
 .formulario textarea.textarea-control {
     border: 2px solid #e1e1e1;
     background: #fafafa;
@@ -264,6 +274,7 @@ main img {
     height: 165px;
     border-radius: 5px;
 }
+
 .formulario .fsubmit {
     width: 100%;
     border-radius: 5px;
@@ -279,48 +290,61 @@ main img {
     font-weight: 600;
     cursor: pointer;
 }
+
 .formulario .fsubmit:hover {
     background: #33691e;
     color: #fff;
 }
+
 .contacto-form h1 {
     font-weight: 700;
     margin: 0 0 25px;
 }
+
 .c-info {
     background: #ffffff;
     border: 1px solid #eeeeee;
     border-radius: 5px;
     padding: 30px;
 }
+
 .c-info:hover {
-    box-shadow: 0 0 0 0.2rem rgba(102,187,106,.25);
+    box-shadow: 0 0 0 0.2rem rgba(102, 187, 106, .25);
 }
-.contact-map-info h6, .c-info h6 {
+
+.contact-map-info h6,
+.c-info h6 {
     font-weight: 600;
     color: #333333;
     font-size: 20px;
 }
-.contact-map-info p, .c-info p {
+
+.contact-map-info p,
+.c-info p {
     margin: 0px;
     color: #555555;
     font-size: 16px;
     line-height: 26px;
 }
+
 .contact-info {
     margin-top: 70px;
 }
+
 .contact-info h3 {
     font-weight: 700;
     margin: 0 0 25px;
 }
+
 .contacto-form {
     width: 100%;
     float: left;
 }
+
 .mb60 {
     margin-bottom: 60px;
 }
+
 .contact-map-info {
     background: #fff;
     border-radius: 5px;
@@ -330,69 +354,150 @@ main img {
     top: 50px;
     padding: 30px;
 }
+
 .contact-map-info ul {
     margin: 0px;
     padding: 0px;
     list-style: none;
 }
+
 .contact-map-info ul li {
     margin-bottom: 30px;
 }
+
 .contact-map-info ul li:last-child {
     margin: 0px;
 }
+
 .contact-page {
     min-height: 100vh;
     padding: 80px 0;
     background: beige;
 }
+
 /*!----REGISTRAR MAIN-----!*/
 
-.titulo-registro {
-    font-size: 45px;
-    margin-bottom: 30px;
-    display: flex;
-    width: 40%;
-    justify-content: center;
-    align-items: center;
-}
-
 .registro {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.container .titulo-registro {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.contenido form .formulario-registro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+.formulario-registro .caja {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+
+}
+
+.detalles {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.formulario-registro .caja input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+
+}
+
+.formulario-registro .caja input:focus,
+.formulario-registro .caja input:valid {
+    border-color: green;
+}
+
+.genero-detalles .genero-titulo {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.categoria {
+    display: flex;
+    width: 80%;
+    margin: 14px 0;
+    justify-content: space-between;
+}
+
+.categoria label {
     display: flex;
     align-items: center;
-    justify-content: center;
+    cursor: pointer;
 }
 
-.contenido {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    font-size: 20px;
-    padding: 30px;
-    background-color: white;
-    border: 1px solid #000;
+.categoria label .dot {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: #d9d9d9;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
 }
 
-.titulo-cuadro {
-    padding: 10px;
-    margin: 10px 0;
-    font-size: 30px;
+#dot-1:checked~.categoria label .uno,
+#dot-2:checked~.categoria label .dos,
+#dot-3:checked~.categoria label .tres {
+    background: green;
+    border-color: #d9d9d9;
 }
 
-.cuadro {
-    margin: 20px 0;
-    padding: 10px;
+form input[type="radio"] {
+    display: none;
 }
 
-.registrar {
-    background-color: beige;
-    background-image: none;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 60px;
+.boton-registro {
+    height: 45px;
+    margin: 35px 0
 }
 
-.boton-registrar {
-    padding: 10px 25px;
+.boton-registro input {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: green;
+}
+
+.boton-registro input:hover {
+    background: green;
 }
 
 /*!------INGRESAR MAIN------*/
@@ -679,5 +784,36 @@ main img {
         .texto-dos {
             font-size: 12px;
         }
+    }
+}
+
+/*!-----ADAPTATIVE REGISTRAR-----!*/
+@media(max-width: 584px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .formulario-registro .caja {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .categoria {
+        width: 100%;
+    }
+
+    .contenido form .user-details {
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+
+    .formulario-registro::-webkit-scrollbar {
+        width: 5px;
+    }
+}
+
+@media(max-width: 459px) {
+    .container .contenido .categoria {
+        flex-direction: column;
     }
 }
