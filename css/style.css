@@ -387,7 +387,7 @@ main img {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
+.container-registro {
     max-width: 700px;
     width: 100%;
     background-color: #fff;
@@ -396,7 +396,7 @@ main img {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
 
-.container .titulo-registro {
+.container-registro .titulo-registro {
     font-size: 25px;
     font-weight: 500;
     position: relative;
