@@ -32,7 +32,7 @@
     height: 100px;
 }
 
-/*!--------MAIN--------*/
+/*!--------MAIN INDEX--------*/
 
 .hero-section {
     background-image: url(../img/cancha-futbo-mediano.jpg);
@@ -120,6 +120,9 @@
     color: black;
     display: block;
     margin-bottom: 16px;
+}
+.links ul li a:hover{
+    color: black;
 }
 
 .links ul {
@@ -312,19 +315,10 @@ main img {
     box-shadow: 0 0 0 0.2rem rgba(102, 187, 106, .25);
 }
 
-.contact-map-info h6,
 .c-info h6 {
     font-weight: 600;
     color: #333333;
     font-size: 20px;
-}
-
-.contact-map-info p,
-.c-info p {
-    margin: 0px;
-    color: #555555;
-    font-size: 16px;
-    line-height: 26px;
 }
 
 .contact-info {
@@ -339,34 +333,6 @@ main img {
 .contacto-form {
     width: 100%;
     float: left;
-}
-
-.mb60 {
-    margin-bottom: 60px;
-}
-
-.contact-map-info {
-    background: #fff;
-    border-radius: 5px;
-    width: 350px;
-    position: absolute;
-    right: 50px;
-    top: 50px;
-    padding: 30px;
-}
-
-.contact-map-info ul {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
-
-.contact-map-info ul li {
-    margin-bottom: 30px;
-}
-
-.contact-map-info ul li:last-child {
-    margin: 0px;
 }
 
 .contact-page {
@@ -644,14 +610,13 @@ form input[type="radio"] {
         }
 
         @media (max-width: 815px) {
-
+            .indicaciones {
+                font-size: 17.5px;
+            }
+            
             .img-pasos {
                 width: 125px;
                 height: 125px;
-            }
-
-            .indicaciones {
-                font-size: 17.5px;
             }
         }
 
@@ -666,6 +631,11 @@ form input[type="radio"] {
                 padding: 10px 0 0 0;
             }
 
+            .tutorial {
+                height: 100px;
+                padding: 30px;
+            }
+
             .indicaciones {
                 font-size: 15px;
             }
@@ -675,11 +645,6 @@ form input[type="radio"] {
                 height: 100px;
             }
 
-            .tutorial {
-                height: 100px;
-                padding: 30px;
-            }
-
             @media (max-width:550px) {
                 .tutorial {
                     height: 165px;
@@ -687,16 +652,16 @@ form input[type="radio"] {
             }
 
             @media (max-width: 455px) {
+                .hero {
+                    padding: 0;
+                }
+                
                 .hero h1 {
                     font-size: 25px;
                 }
 
                 .hero span {
                     font-size: 25px;
-                    padding: 0;
-                }
-
-                .hero {
                     padding: 0;
                 }
 
@@ -711,7 +676,7 @@ form input[type="radio"] {
                     padding: 8px;
                 }
 
-                .tutorial h2 {
+                .tutorial {
                     font-size: 20px;
                 }
             }
@@ -766,7 +731,7 @@ form input[type="radio"] {
         }
     }
 
-    @media (max-width:500px) {
+    @media (max-width:450px) {
         .titulo-quienessomos {
             font-size: 25px;
             margin-bottom: 20px;

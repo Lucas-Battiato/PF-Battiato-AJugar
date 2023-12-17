@@ -19,40 +19,14 @@ footer {
                         color: black;
                         display: block;
                         margin-bottom: 16px;
-                    }
-                }
-            }
-        }
-        div{
-            ul{
-                list-style: none;
-
-                li{
-
-                    a{
-                        text-decoration: none;
+                    &:hover{
                         color: black;
-                        display: block;
-                        margin-bottom: 16px;
+                    }
                     }
                 }
             }
         }
-        div{
-            ul{
-                list-style: none;
-
-                li{
-
-                    a{
-                        text-decoration: none;
-                        color: black;
-                        display: block;
-                        margin-bottom: 16px;
-                    }
-                }
-            }
-        }
+        
         div{
             a{
                 img {

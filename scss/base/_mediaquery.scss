@@ -1,0 +1,224 @@
+/*!---ADAPTATIVE INDEX---!*/
+
+@media (max-width:910px){
+    .hero-section{
+        .hero{
+            h1{
+                font-size: 45px;
+                padding: 30px;
+            }
+            span{
+                font-size: 45px;
+        }
+    }
+}
+}
+
+    @media (max-width: 850px){
+        .buscador {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            .item{
+                
+                    font-size: 15px;
+                    padding: 8px;
+            }
+        }
+    }
+
+        @media (max-width: 815px) {
+            .indicaciones {
+                font-size: 17.5px;
+            }
+            
+            .img-pasos {
+                width: 125px;
+                height: 125px;
+            }
+        }
+
+        @media (max-width:700px){
+            .hero-section{
+
+                .hero{
+
+                    h1{
+                        font-size: 35px;
+                        padding: 0 0 10px 0;
+                    }
+
+                    span{
+                        font-size: 35px;
+                        padding: 10px 0 0 0;
+                    }
+                    
+                }
+
+            section{
+
+                .tutorial{
+                        height: 100px;
+                        padding: 30px;
+                }
+            }
+            .indicaciones{
+                        font-size: 15px;
+
+                .pasos{
+
+                    .img-pasos{
+                                width: 100px;
+                                height: 100px;
+                    }
+                }
+            }
+            }
+        }
+
+            @media (max-width:560px) {
+                .hero-section{
+                    section{
+                        .tutorial {
+                            height: 165px;
+                }
+            }
+        }
+            }
+
+            @media (max-width: 455px){
+                .hero-section{
+
+                    .hero{
+                        padding: 0;
+
+                        h1{
+                            font-size: 25px;
+                        }
+
+                        span{
+                            font-size: 25px;
+                            padding: 0;
+                            }
+                        
+                    }
+                    form{
+                        .diseño{
+                            .buscador{
+                                    margin: 20px 0 20px 0;
+                                    padding: 0 15px 0 15px;
+                                    font-size: 15px;
+                                    .item{
+                                        
+                                    }
+                                }
+                        }
+                    }
+                    section{
+                        .tutorial{
+                            font-size: 20px;
+                        }
+                    }
+                }
+
+            }
+
+    /*!---ADAPTATIVE QUIENES SOMOS---!*/
+        
+            @media (max-width:1000px){
+
+                .quienessomos{
+
+                    .texto-uno{
+                            font-size: 20px;
+
+                        div{
+
+                            p{
+
+                            }
+
+                        }
+
+                        img{
+                            width: 350px;
+                            height: 350px;
+                            
+                        }
+                    }
+
+                    .texto-dos{
+                            font-size: 20px;
+                        div{
+
+                            p{
+
+                            }
+                        }
+
+                        img{
+                            
+                        }
+                    }
+                }
+            }
+            @media (max-width:750px){
+                .quienessomos{
+
+                    .titulo-quienessomos{
+                                    font-size: 35px;
+                                    margin-bottom: 30px;
+                    }
+                
+                .texto-uno{
+                    font-size: 15px;
+                    div{
+
+                    }
+                    img{
+                        width: 300px;
+                        height: 300px;
+                    }
+                }
+                
+                .texto-dos{
+                    font-size: 15px;
+                    div{
+
+                    }
+                    img{
+                        width: 300px;
+                        height: 300px;
+                    }
+                }
+            }
+        }
+
+        @media (max-width:450px){
+            .quienessomos{
+                .titulo-quienessomos{
+                            font-size: 25px;
+                            margin-bottom: 20px;
+                }
+                .texto-uno{
+                    font-size: 12px;
+                    div{}
+                    img{
+                        width: 160px;
+                        height: 160px;
+                    }
+                }
+                .texto-dos{
+                    font-size: 12px;
+                    div{
+
+                    }
+                    img{
+                        width: 160px;
+                        height: 160px;
+                    }
+                }
+                }
+            }
+        
+            
+    

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0%;
   padding: 0%;
@@ -30,15 +31,15 @@ main {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   padding: 60px; }
-  main section div {
+  main .hero {
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     padding: 50px; }
-    main section div h1 {
+    main .hero h1 {
       font-size: 60px; }
-    main section div span {
+    main .hero span {
       font-size: 60px; }
   main form div {
     display: flex;
@@ -51,24 +52,160 @@ main {
       main form div div select {
         font-size: 16px;
         padding: 15px; }
-  main section {
+  main section h2 {
     justify-content: center;
     display: flex;
     text-align: center;
     height: 100%;
     padding: 50px; }
-  main section div {
+  main section {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     font-size: 20px;
     text-align: center; }
-    main section div div {
+    main section div {
       padding: 10px;
       margin: 30px; }
-      main section div div img {
+      main section div img {
         width: 150px;
         height: 150px; }
+
+/*!------QUIENES SOMOS MAIN------*/
+.quienessomos {
+  background-image: none;
+  background-color: beige;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 60px; }
+  .quienessomos .titulo-quienessomos {
+    width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 45px;
+    margin-bottom: 40px; }
+  .quienessomos .texto-uno {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px; }
+    .quienessomos .texto-uno div {
+      width: 60%;
+      text-align: center; }
+    .quienessomos .texto-uno img {
+      width: 450px;
+      height: 450px; }
+  .quienessomos .texto-dos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    font-size: 25px; }
+    .quienessomos .texto-dos div {
+      width: 60%;
+      text-align: center; }
+    .quienessomos .texto-dos img {
+      width: 450px;
+      height: 450px; }
+
+/*!-----CONTACTO MAIN------*/
+main .contact-page {
+  min-height: 100vh;
+  padding: 80px 0;
+  background: beige; }
+  main .contact-page .container .row .col-md-6 .contacto-form {
+    width: 100%;
+    float: left; }
+    main .contact-page .container .row .col-md-6 .contacto-form h1 {
+      font-weight: 700;
+      margin: 0 0 25px; }
+    main .contact-page .container .row .col-md-6 .contacto-form .formulario {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      width: 100%;
+      float: left;
+      border: 2px solid #e1e1e1; }
+      main .contact-page .container .row .col-md-6 .contacto-form .formulario .half .f-c-d {
+        margin-bottom: 30px;
+        width: 50%;
+        float: left;
+        padding-right: 15px; }
+        main .contact-page .container .row .col-md-6 .contacto-form .formulario .half .f-c-d .form-control {
+          border: 2px solid #e1e1e1;
+          background: #fafafa;
+          color: #555555;
+          height: 53px;
+          line-height: 49px;
+          padding: 0 20px; }
+      main .contact-page .container .row .col-md-6 .contacto-form .formulario .half .f-c-i {
+        margin-bottom: 30px;
+        padding-left: 15px;
+        width: 50%;
+        float: left; }
+        main .contact-page .container .row .col-md-6 .contacto-form .formulario .half .f-c-i .form-control {
+          border: 2px solid #e1e1e1;
+          background: #fafafa;
+          color: #555555;
+          height: 53px;
+          line-height: 49px;
+          padding: 0 20px; }
+      main .contact-page .container .row .col-md-6 .contacto-form .formulario .full {
+        width: 100%;
+        float: left; }
+        main .contact-page .container .row .col-md-6 .contacto-form .formulario .full .textarea-control {
+          border: 2px solid #e1e1e1;
+          background: #fafafa;
+          color: #555555;
+          padding: 20px;
+          width: 100%;
+          height: 165px;
+          border-radius: 5px; }
+      main .contact-page .container .row .col-md-6 .contacto-form .formulario .full {
+        width: 100%;
+        float: left; }
+        main .contact-page .container .row .col-md-6 .contacto-form .formulario .full .fsubmit {
+          width: 100%;
+          border-radius: 5px;
+          text-align: center;
+          color: #fff;
+          background: #66bb6a;
+          border: 0px;
+          height: 55px;
+          line-height: 55px;
+          text-transform: uppercase;
+          font-family: 'Poppins', sans-serif;
+          font-size: 18px;
+          font-weight: 600;
+          cursor: pointer; }
+  main .contact-page .container .col-md-6 .google-map {
+    width: 100%;
+    float: left;
+    position: relative; }
+    main .contact-page .container .col-md-6 .google-map iframe {
+      width: 100%;
+      height: 485px;
+      border: 0px; }
+  main .contact-page .container .contact-info {
+    margin-top: 70px; }
+    main .contact-page .container .contact-info .row .col-md-12 h3 {
+      font-weight: 700;
+      margin: 0 0 25px; }
+    main .contact-page .container .contact-info .row .col-md-4 .c-info {
+      background: #ffffff;
+      border: 1px solid #eeeeee;
+      border-radius: 5px;
+      padding: 30px; }
+      main .contact-page .container .contact-info .row .col-md-4 .c-info h6 {
+        font-weight: 600;
+        color: #333333;
+        font-size: 20px; }
+      main .contact-page .container .contact-info .row .col-md-4 .c-info p {
+        margin: 0px;
+        color: #555555;
+        font-size: 16px;
+        line-height: 26px; }
 
 footer {
   background-color: #aba9a9;
@@ -84,21 +221,107 @@ footer {
         color: black;
         display: block;
         margin-bottom: 16px; }
-    footer div div ul {
-      list-style: none; }
-      footer div div ul li a {
-        text-decoration: none;
-        color: black;
-        display: block;
-        margin-bottom: 16px; }
-    footer div div ul {
-      list-style: none; }
-      footer div div ul li a {
-        text-decoration: none;
-        color: black;
-        display: block;
-        margin-bottom: 16px; }
+        footer div div ul li a:hover {
+          color: black; }
     footer div div a img {
       width: 30px;
       height: 30px;
       margin: 5px; }
+
+/*!---ADAPTATIVE INDEX---!*/
+@media (max-width: 910px) {
+  .hero-section .hero h1 {
+    font-size: 45px;
+    padding: 30px; }
+  .hero-section .hero span {
+    font-size: 45px; } }
+
+@media (max-width: 850px) {
+  .buscador {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+    .buscador .item {
+      font-size: 15px;
+      padding: 8px; } }
+
+@media (max-width: 815px) {
+  .indicaciones {
+    font-size: 17.5px; }
+  .img-pasos {
+    width: 125px;
+    height: 125px; } }
+
+@media (max-width: 700px) {
+  .hero-section .hero h1 {
+    font-size: 35px;
+    padding: 0 0 10px 0; }
+  .hero-section .hero span {
+    font-size: 35px;
+    padding: 10px 0 0 0; }
+  .hero-section section .tutorial {
+    height: 100px;
+    padding: 30px; }
+  .hero-section .indicaciones {
+    font-size: 15px; }
+    .hero-section .indicaciones .pasos .img-pasos {
+      width: 100px;
+      height: 100px; } }
+
+@media (max-width: 560px) {
+  .hero-section section .tutorial {
+    height: 165px; } }
+
+@media (max-width: 455px) {
+  .hero-section .hero {
+    padding: 0; }
+    .hero-section .hero h1 {
+      font-size: 25px; }
+    .hero-section .hero span {
+      font-size: 25px;
+      padding: 0; }
+  .hero-section form .diseño .buscador {
+    margin: 20px 0 20px 0;
+    padding: 0 15px 0 15px;
+    font-size: 15px; }
+  .hero-section section .tutorial {
+    font-size: 20px; } }
+
+/*!---ADAPTATIVE QUIENES SOMOS---!*/
+@media (max-width: 1000px) {
+  .quienessomos .texto-uno {
+    font-size: 20px; }
+    .quienessomos .texto-uno img {
+      width: 350px;
+      height: 350px; }
+  .quienessomos .texto-dos {
+    font-size: 20px; } }
+
+@media (max-width: 750px) {
+  .quienessomos .titulo-quienessomos {
+    font-size: 35px;
+    margin-bottom: 30px; }
+  .quienessomos .texto-uno {
+    font-size: 15px; }
+    .quienessomos .texto-uno img {
+      width: 300px;
+      height: 300px; }
+  .quienessomos .texto-dos {
+    font-size: 15px; }
+    .quienessomos .texto-dos img {
+      width: 300px;
+      height: 300px; } }
+
+@media (max-width: 450px) {
+  .quienessomos .titulo-quienessomos {
+    font-size: 25px;
+    margin-bottom: 20px; }
+  .quienessomos .texto-uno {
+    font-size: 12px; }
+    .quienessomos .texto-uno img {
+      width: 160px;
+      height: 160px; }
+  .quienessomos .texto-dos {
+    font-size: 12px; }
+    .quienessomos .texto-dos img {
+      width: 160px;
+      height: 160px; } }
