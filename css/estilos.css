@@ -307,7 +307,7 @@ footer {
   padding-top: 10px; }
   footer div {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-evenly; }
     footer div div ul {
       list-style: none; }
       footer div div ul li a {
