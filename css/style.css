@@ -225,7 +225,7 @@ main img {
     border: 0px;
 }
 
-.formulario {
+.formulario-contacto {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -233,15 +233,15 @@ main img {
     float: left;
 }
 
-.formulario li {
+.formulario-contacto li {
     margin-bottom: 30px;
 }
 
-.formulario li:last-child {
+.formulario-contacto li:last-child {
     margin: 0px;
 }
 
-.formulario li.half {
+.formulario-contacto li.half {
     width: 50%;
     float: left;
 }
@@ -259,7 +259,7 @@ main img {
     float: left;
 }
 
-.formulario .form-control {
+.formulario-contacto .form-control {
     border: 2px solid #e1e1e1;
     background: #fafafa;
     color: #555555;
@@ -268,7 +268,7 @@ main img {
     padding: 0 20px;
 }
 
-.formulario textarea.textarea-control {
+.formulario-contacto textarea.textarea-control {
     border: 2px solid #e1e1e1;
     background: #fafafa;
     color: #555555;
@@ -278,7 +278,7 @@ main img {
     border-radius: 5px;
 }
 
-.formulario .fsubmit {
+.formulario-contacto .fsubmit {
     width: 100%;
     border-radius: 5px;
     text-align: center;
@@ -294,7 +294,7 @@ main img {
     cursor: pointer;
 }
 
-.formulario .fsubmit:hover {
+.formulario-contacto .fsubmit:hover {
     background: #33691e;
     color: #fff;
 }
@@ -362,20 +362,20 @@ main img {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
 
-.container-registro .titulo-registro {
+.titulo-registro {
     font-size: 25px;
     font-weight: 500;
     position: relative;
 }
 
-.contenido form .formulario-registro {
+.formulario-registro {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px 0 12px 0;
 }
 
-.formulario-registro .caja {
+.caja {
     margin-bottom: 15px;
     width: calc(100% / 2 - 20px);
 
@@ -387,7 +387,7 @@ main img {
     margin-bottom: 5px;
 }
 
-.formulario-registro .caja input {
+.caja input {
     height: 45px;
     width: 100%;
     outline: none;
@@ -405,7 +405,7 @@ main img {
     border-color: green;
 }
 
-.genero-detalles .genero-titulo {
+.genero-titulo {
     font-size: 20px;
     font-weight: 500;
 }
@@ -423,7 +423,7 @@ main img {
     cursor: pointer;
 }
 
-.categoria label .dot {
+.dot {
     height: 18px;
     width: 18px;
     border-radius: 50%;
@@ -756,11 +756,14 @@ form input[type="radio"] {
 
 /*!-----ADAPTATIVE REGISTRAR-----!*/
 @media(max-width: 584px) {
-    .container {
+    .registro{
+        height: 1000px;
+    }
+    .container-registro {
         max-width: 100%;
     }
 
-    .formulario-registro .caja {
+.caja {
         margin-bottom: 15px;
         width: 100%;
     }
@@ -769,21 +772,19 @@ form input[type="radio"] {
         width: 100%;
     }
 
-    .contenido form .user-details {
+.detalles {
         max-height: 300px;
-        overflow-y: scroll;
+
     }
 
     .formulario-registro::-webkit-scrollbar {
         width: 5px;
     }
-    .registro{
-        height: 1000px;
-    }
+
 }
 
 @media(max-width: 459px) {
-    .container .contenido .categoria {
+.categoria {
         flex-direction: column;
     }
 }
