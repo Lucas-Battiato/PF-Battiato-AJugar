@@ -134,7 +134,7 @@
 
 /*!---ADAPTATIVE QUIENES SOMOS---!*/
 
-@media (max-width:1000px) {
+@media (max-width:910px) {
 
     .quienessomos {
 
@@ -194,6 +194,27 @@
             img {
                 width: 300px;
                 height: 300px;
+            }
+        }
+    }
+}
+
+@media (max-width:550px){
+    .quienessomos{
+        .texto-uno{
+            display: block ;
+            text-align: -webkit-center;
+            img{
+                width: 200px;
+                height: 200px;
+            }
+        }
+        .texto-dos{
+            display: block ;
+            text-align: -webkit-center;
+            img{
+                width: 200px;
+                height: 200px;
             }
         }
     }

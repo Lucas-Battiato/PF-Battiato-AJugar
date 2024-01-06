@@ -49,6 +49,10 @@ form input[type="radio"] {
   display: none; }
 
 /*!----VARIABLES----!*/
+.ayuda, .registro {
+  background: beige;
+  font-family: Arial, Helvetica, sans-serif; }
+
 header div a img {
   width: 100px;
   height: 100px; }
@@ -142,9 +146,7 @@ header div a img {
 /*!-----AYUDA MAIN------*/
 .ayuda {
   background-image: none;
-  background-color: beige;
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
   padding: 60px; }
   .ayuda .titulo-ayuda {
     width: 40%;
@@ -339,9 +341,7 @@ header div a img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
-  background: beige;
-  font-family: Arial, Helvetica, sans-serif; }
+  padding: 10px; }
   .registro .container-registro {
     max-width: 700px;
     width: 100%;
@@ -488,7 +488,7 @@ footer {
     font-size: 20px; } }
 
 /*!---ADAPTATIVE QUIENES SOMOS---!*/
-@media (max-width: 1000px) {
+@media (max-width: 910px) {
   .quienessomos .texto-uno {
     font-size: 20px; }
     .quienessomos .texto-uno img {
@@ -511,6 +511,20 @@ footer {
     .quienessomos .texto-dos img {
       width: 300px;
       height: 300px; } }
+
+@media (max-width: 550px) {
+  .quienessomos .texto-uno {
+    display: block;
+    text-align: -webkit-center; }
+    .quienessomos .texto-uno img {
+      width: 200px;
+      height: 200px; }
+  .quienessomos .texto-dos {
+    display: block;
+    text-align: -webkit-center; }
+    .quienessomos .texto-dos img {
+      width: 200px;
+      height: 200px; } }
 
 @media (max-width: 450px) {
   .quienessomos .titulo-quienessomos {
