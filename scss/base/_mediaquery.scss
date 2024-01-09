@@ -150,6 +150,7 @@
             img {
                 width: 350px;
                 height: 350px;
+                
 
             }
         }
@@ -183,6 +184,7 @@
             img {
                 width: 300px;
                 height: 300px;
+                padding-bottom: 10px;
             }
         }
 
@@ -194,6 +196,7 @@
             img {
                 width: 300px;
                 height: 300px;
+                padding-top: 10px;
             }
         }
     }
@@ -299,5 +302,58 @@
     .redes {
         display: grid;
         grid-template-columns: 1fr, 1fr;
+    }
+}
+
+
+/*!-----ADAPTATIVE NUESTRAS CANCHAS-----!*/
+@media(max-width:1000px){
+    .nuestras-canchas{
+
+        .titulo-canchas{
+
+        }
+
+        .galeria{
+            grid-template-columns: repeat(2, 1fr);
+
+            .galeria-item{
+                
+                &:nth-child(4){
+                    grid-column-start: span 1;
+                }
+                &:nth-child(5){
+                    grid-row-start: span 1;
+                }
+
+                .galeria-imagen{
+
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:650px){
+    .nuestras-canchas{
+
+        .titulo-canchas{
+
+        }
+
+        .galeria{
+            grid-template-columns: 1fr;
+
+            .galeria-item{
+                
+                &:nth-child(3){
+                    grid-row-start: span 1;
+                }
+                
+                .galeria-imagen{
+
+                }
+            }
+        }
     }
 }

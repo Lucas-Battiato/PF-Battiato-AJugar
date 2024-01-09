@@ -61,7 +61,7 @@ header div a img {
   background-image: url(../img/cancha-futbo-mediano.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.95;
+  opacity: 0.90;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   padding: 60px; }
@@ -129,7 +129,8 @@ header div a img {
       text-align: center; }
     .quienessomos .texto-uno img {
       width: 450px;
-      height: 450px; }
+      height: 450px;
+      padding-left: 10px; }
   .quienessomos .texto-dos {
     display: flex;
     justify-content: space-evenly;
@@ -141,7 +142,8 @@ header div a img {
       text-align: center; }
     .quienessomos .texto-dos img {
       width: 450px;
-      height: 450px; }
+      height: 450px;
+      padding-right: 10px; }
 
 /*!-----AYUDA MAIN------*/
 .ayuda {
@@ -165,8 +167,8 @@ header div a img {
     width: 100%;
     float: left; }
     .contact-page section .container div div .contacto-form h1 {
-      font-weight: 700;
-      margin: 0 0 25px; }
+      margin: 0 0 25px;
+      font-family: Arial, Helvetica, sans-serif; }
     .contact-page section .container div div .contacto-form .formulario-contacto {
       margin: 0;
       padding: 0;
@@ -213,6 +215,8 @@ header div a img {
           font-size: 18px;
           font-weight: 600;
           cursor: pointer; }
+          .contact-page section .container div div .contacto-form .formulario-contacto .full .fsubmit:hover {
+            background-color: green; }
   .contact-page section .container div .google-map {
     width: 100%;
     float: left;
@@ -404,13 +408,21 @@ header div a img {
         font-weight: 500;
         letter-spacing: 1px;
         cursor: pointer;
-        background: green; }
+        background: #66bb6a; }
         .registro .container-registro .contenido form .boton-registro input:hover {
           background: green; }
 
 /*!-----NUESTRAS CANCHAS MAIN------*/
 .nuestras-canchas {
   background-color: beige; }
+  .nuestras-canchas .titulo-canchas {
+    width: 40%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 45px;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif; }
   .nuestras-canchas .galeria {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -525,12 +537,14 @@ footer {
     font-size: 15px; }
     .quienessomos .texto-uno img {
       width: 300px;
-      height: 300px; }
+      height: 300px;
+      padding-bottom: 10px; }
   .quienessomos .texto-dos {
     font-size: 15px; }
     .quienessomos .texto-dos img {
       width: 300px;
-      height: 300px; } }
+      height: 300px;
+      padding-top: 10px; } }
 
 @media (max-width: 550px) {
   .quienessomos .texto-uno {
@@ -584,3 +598,18 @@ footer {
   .redes {
     display: grid;
     grid-template-columns: 1fr, 1fr; } }
+
+/*!-----ADAPTATIVE NUESTRAS CANCHAS-----!*/
+@media (max-width: 1000px) {
+  .nuestras-canchas .galeria {
+    grid-template-columns: repeat(2, 1fr); }
+    .nuestras-canchas .galeria .galeria-item:nth-child(4) {
+      grid-column-start: span 1; }
+    .nuestras-canchas .galeria .galeria-item:nth-child(5) {
+      grid-row-start: span 1; } }
+
+@media (max-width: 650px) {
+  .nuestras-canchas .galeria {
+    grid-template-columns: 1fr; }
+    .nuestras-canchas .galeria .galeria-item:nth-child(3) {
+      grid-row-start: span 1; } }
