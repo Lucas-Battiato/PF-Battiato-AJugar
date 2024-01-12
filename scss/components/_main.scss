@@ -2,7 +2,6 @@
     background: linear-gradient(rgba(28, 99, 2, 0.127),rgba(28, 99, 2, 0.111)) ,url(../img/cancha-futbo-mediano.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
     padding: 60px;
@@ -20,7 +19,6 @@
         span {
             font-size: 60px
         }
-
     }
 
     form {
@@ -49,7 +47,6 @@
     }
 
     section {
-
         h2 {
             display: flex;
             text-align: center;
@@ -79,8 +76,6 @@
         }
     }
 }
-
-
 
 /*!------QUIENES SOMOS MAIN------*/
 
@@ -115,13 +110,10 @@
             p {}
 
         }
-
         img {
             width: 450px;
             height: 450px;
             padding-left: 10px;
-            
-
         }
     }
 
@@ -144,7 +136,6 @@
             width: 450px;
             height: 450px;
             padding-right: 10px;
-
         }
     }
 }
@@ -169,7 +160,6 @@
     }
 }
 
-
 /*!-----CONTACTO MAIN------*/
 
 .contact-page {
@@ -177,7 +167,6 @@
     padding: 80px 0;
     background: beige;
     
-
     section {
 
         .container {
@@ -200,7 +189,6 @@
                             width: 100%;
                             float: left;
                             
-
                             li {
                                 margin-bottom: 30px;
                                 width: 50%;
@@ -230,7 +218,6 @@
                                     border-radius: 5px;
                                 }
                             }
-
                             .full {
                                 width: 100%;
                                 float: left;
@@ -544,23 +531,6 @@
                             span {}
 
                             span {}
-
-                        }
-                    
-
-                        label {
-                            span {}
-
-                            span {}
-
-                        }
-                    
-
-                        label {
-                            span {}
-
-                            span {}
-
                         }
                     }
                 }
@@ -624,7 +594,6 @@
             &:nth-child(5){
                 grid-row-start: span 2;
             }
-
 
             .galeria-imagen{
                 width: 100%;

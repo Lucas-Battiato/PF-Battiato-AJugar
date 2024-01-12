@@ -59,9 +59,7 @@
                 font-size: 35px;
                 padding: 10px 0 0 0;
             }
-
         }
-
         section {
 
             .tutorial {
@@ -102,15 +100,13 @@
 
             h1 {
                 font-size: 25px;
-            }
 
+            }
             span {
                 font-size: 25px;
                 padding: 0;
             }
-
         }
-
         form {
             .diseño {
                 .buscador {
@@ -122,7 +118,6 @@
                 }
             }
         }
-
         section {
             .tutorial {
                 font-size: 20px;
@@ -150,8 +145,6 @@
             img {
                 width: 350px;
                 height: 350px;
-                
-
             }
         }
 
@@ -254,6 +247,14 @@
     }
 }
 
+/*!-----ADAPTATIVE FOOTER-----!*/
+@media(max-width: 450px){
+.ingresar{
+    .inicio-sesion{
+        width: 300px;
+    }
+}
+}
 
 /*!-----ADAPTATIVE REGISTRAR-----!*/
 @media(max-width: 584px) {
@@ -288,7 +289,6 @@
             }
         }
     }
-
 }
 
 @media(max-width: 459px) {
@@ -305,8 +305,8 @@
     }
 }
 
-
 /*!-----ADAPTATIVE NUESTRAS CANCHAS-----!*/
+
 @media(max-width:1000px){
     .nuestras-canchas{
 
@@ -318,7 +318,7 @@
             grid-template-columns: repeat(2, 1fr);
 
             .galeria-item{
-                
+
                 &:nth-child(4){
                     grid-column-start: span 1;
                 }
@@ -351,7 +351,6 @@
                 }
                 
                 .galeria-imagen{
-
                 }
             }
         }
