@@ -58,10 +58,9 @@ header div a img {
   height: 100px; }
 
 .hero-section {
-  background-image: url(../img/cancha-futbo-mediano.jpg);
+  background: linear-gradient(rgba(28, 99, 2, 0.127), rgba(28, 99, 2, 0.111)), url(../img/cancha-futbo-mediano.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.90;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   padding: 60px; }
@@ -459,7 +458,10 @@ footer {
     footer div div a img {
       width: 30px;
       height: 30px;
-      margin: 5px; }
+      margin: 5px;
+      transition: 2s; }
+      footer div div a img:hover {
+        transform: rotateZ(360deg); }
 
 /*!---ADAPTATIVE INDEX---!*/
 @media (max-width: 910px) {
@@ -613,3 +615,7 @@ footer {
     grid-template-columns: 1fr; }
     .nuestras-canchas .galeria .galeria-item:nth-child(3) {
       grid-row-start: span 1; } }
+
+@media (max-width: 500px) {
+  .nuestras-canchas .titulo-canchas {
+    font-size: 25px; } }
